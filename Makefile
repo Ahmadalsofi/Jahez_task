@@ -1,5 +1,4 @@
 SCHEME_MAIN    = Jahez Task
-SCHEME_NETWORK = NetworkKit
 PROJECT        = Jahez Task.xcodeproj
 DESTINATION    = platform=iOS Simulator,name=iPhone 17 Pro Max,OS=26.0.1
 NETWORKKIT_DIR = Packages/NetworkKit
@@ -7,7 +6,7 @@ APPSERVICE_DIR = Packages/AppService
 
 .PHONY: test test-main test-networkkit test-service clean
 
-test: test-main test-networkkit
+test: test-main test-networkkit test-service
 
 test-main:
 	set -o pipefail && xcodebuild test \

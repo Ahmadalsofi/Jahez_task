@@ -116,7 +116,7 @@ A `Makefile` is provided to run tests across all targets:
 
 | Command | What it runs |
 |---|---|
-| `make test` | Main app target + NetworkKit |
+| `make test` | Main app target + NetworkKit + AppService |
 | `make test-networkkit` | NetworkKit package only |
 | `make test-service` | AppService package only |
 | `make clean` | Cleans all build artifacts |
