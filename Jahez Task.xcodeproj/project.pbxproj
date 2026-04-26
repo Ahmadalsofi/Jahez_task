@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		883CAEE72F9EB43C00AD2032 /* NetworkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 883CAEE62F9EB43C00AD2032 /* NetworkKit */; };
+		883CAEEA2F9EB94300AD2032 /* SharedUI in Frameworks */ = {isa = PBXBuildFile; productRef = 883CAEE92F9EB94300AD2032 /* SharedUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				883CAEE72F9EB43C00AD2032 /* NetworkKit in Frameworks */,
+				883CAEEA2F9EB94300AD2032 /* SharedUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +114,7 @@
 			name = "Jahez Task";
 			packageProductDependencies = (
 				883CAEE62F9EB43C00AD2032 /* NetworkKit */,
+				883CAEE92F9EB94300AD2032 /* SharedUI */,
 			);
 			productName = "Jahez Task";
 			productReference = 883CAE1D2F9EB0C500AD2032 /* Jahez Task.app */;
@@ -194,6 +197,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				883CAEE52F9EB43C00AD2032 /* XCLocalSwiftPackageReference "Packages/NetworkKit" */,
+				883CAEE82F9EB94300AD2032 /* XCLocalSwiftPackageReference "Packages/SharedUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 883CAE1E2F9EB0C500AD2032 /* Products */;
@@ -582,12 +586,20 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/NetworkKit;
 		};
+		883CAEE82F9EB94300AD2032 /* XCLocalSwiftPackageReference "Packages/SharedUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/SharedUI;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		883CAEE62F9EB43C00AD2032 /* NetworkKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NetworkKit;
+		};
+		883CAEE92F9EB94300AD2032 /* SharedUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SharedUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
