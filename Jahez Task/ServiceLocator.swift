@@ -38,3 +38,10 @@ final class ServiceLocator {
     }
 }
 
+// MARK: - View Models
+
+extension ServiceLocator {
+    func makeMovieDetailViewModel(movieId: Int) -> MovieDetailViewModel {
+        MovieDetailViewModel(movieId: movieId, service: movieDetailService)
+    }
+}

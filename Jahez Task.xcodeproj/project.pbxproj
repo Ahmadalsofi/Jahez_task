@@ -34,6 +34,7 @@
 		883CAE1D2F9EB0C500AD2032 /* Jahez Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jahez Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		883CAE2A2F9EB0C800AD2032 /* Jahez TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jahez TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		883CAE342F9EB0C800AD2032 /* Jahez TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jahez TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		883CAEF12F9ECA0000AD2032 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Secrets.xcconfig; path = "Jahez Task/Config/Secrets.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -84,6 +85,7 @@
 				883CAE1F2F9EB0C500AD2032 /* Jahez Task */,
 				883CAE2D2F9EB0C800AD2032 /* Jahez TaskTests */,
 				883CAE1E2F9EB0C500AD2032 /* Products */,
+				883CAEF12F9ECA0000AD2032 /* Secrets.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -401,6 +403,7 @@
 		};
 		883CAE3F2F9EB0C800AD2032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883CAEF12F9ECA0000AD2032 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -409,7 +412,7 @@
 				DEVELOPMENT_TEAM = GBLQVG5372;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Jahez-Task-Info.plist";
+				INFOPLIST_FILE = "Jahez Task/Jahez-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -435,6 +438,7 @@
 		};
 		883CAE402F9EB0C800AD2032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883CAEF12F9ECA0000AD2032 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,7 +447,7 @@
 				DEVELOPMENT_TEAM = GBLQVG5372;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Jahez-Task-Info.plist";
+				INFOPLIST_FILE = "Jahez Task/Jahez-Task-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
