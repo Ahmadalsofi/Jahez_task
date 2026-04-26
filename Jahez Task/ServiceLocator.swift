@@ -44,4 +44,11 @@ extension ServiceLocator {
     func makeMovieDetailViewModel(movieId: Int) -> MovieDetailViewModel {
         MovieDetailViewModel(movieId: movieId, service: movieDetailService)
     }
+
+    func makeMovieDiscoverViewModel() -> MovieDiscoverViewModel {
+        MovieDiscoverViewModel(
+            genreFilter: GenreFilterViewModel(genreService: genreService),
+            movieList: MovieListViewModel(movieService: movieService)
+        )
+    }
 }
