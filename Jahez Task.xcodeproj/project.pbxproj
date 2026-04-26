@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		883CAEE72F9EB43C00AD2032 /* NetworkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 883CAEE62F9EB43C00AD2032 /* NetworkKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		883CAE2B2F9EB0C800AD2032 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -40,11 +44,6 @@
 			path = "Jahez TaskTests";
 			sourceTree = "<group>";
 		};
-		883CAE372F9EB0C800AD2032 /* Jahez TaskUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Jahez TaskUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883CAEE72F9EB43C00AD2032 /* NetworkKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,6 @@
 			children = (
 				883CAE1F2F9EB0C500AD2032 /* Jahez Task */,
 				883CAE2D2F9EB0C800AD2032 /* Jahez TaskTests */,
-				883CAE372F9EB0C800AD2032 /* Jahez TaskUITests */,
 				883CAE1E2F9EB0C500AD2032 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +111,7 @@
 			);
 			name = "Jahez Task";
 			packageProductDependencies = (
+				883CAEE62F9EB43C00AD2032 /* NetworkKit */,
 			);
 			productName = "Jahez Task";
 			productReference = 883CAE1D2F9EB0C500AD2032 /* Jahez Task.app */;
@@ -153,9 +153,6 @@
 			dependencies = (
 				883CAE362F9EB0C800AD2032 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				883CAE372F9EB0C800AD2032 /* Jahez TaskUITests */,
-			);
 			name = "Jahez TaskUITests";
 			packageProductDependencies = (
 			);
@@ -195,6 +192,9 @@
 			);
 			mainGroup = 883CAE142F9EB0C500AD2032;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				883CAEE52F9EB43C00AD2032 /* XCLocalSwiftPackageReference "Packages/NetworkKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 883CAE1E2F9EB0C500AD2032 /* Products */;
 			projectDirPath = "";
@@ -576,6 +576,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		883CAEE52F9EB43C00AD2032 /* XCLocalSwiftPackageReference "Packages/NetworkKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/NetworkKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		883CAEE62F9EB43C00AD2032 /* NetworkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 883CAE152F9EB0C500AD2032 /* Project object */;
 }
