@@ -13,6 +13,8 @@ test-main:
 		-project "$(PROJECT)" \
 		-scheme "$(SCHEME_MAIN)" \
 		-destination "$(DESTINATION)" \
+		-parallel-testing-enabled YES \
+		-disable-concurrent-destination-testing \
 		| xcpretty
 
 test-networkkit:
