@@ -2,6 +2,10 @@
 
 A modular iOS app built with SwiftUI that browses movies using the TMDB API.
 
+| Movie List | Search | Movie Detail |
+|:---:|:---:|:---:|
+| ![Movie List](Screenshots/movie_list.png) | ![Search](Screenshots/search.png) | ![Movie Detail](Screenshots/movie_detail.png) |
+
 ---
 
 ## Security
