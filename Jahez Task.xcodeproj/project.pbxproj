@@ -21,19 +21,11 @@
 			remoteGlobalIDString = 883CAE1C2F9EB0C500AD2032;
 			remoteInfo = "Jahez Task";
 		};
-		883CAE352F9EB0C800AD2032 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 883CAE152F9EB0C500AD2032 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 883CAE1C2F9EB0C500AD2032;
-			remoteInfo = "Jahez Task";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		883CAE1D2F9EB0C500AD2032 /* Jahez Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jahez Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		883CAE2A2F9EB0C800AD2032 /* Jahez TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jahez TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		883CAE342F9EB0C800AD2032 /* Jahez TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jahez TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		883CAEF12F9ECA0000AD2032 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Secrets.xcconfig; path = "Jahez Task/Config/Secrets.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,13 +61,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		883CAE312F9EB0C800AD2032 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,7 +79,6 @@
 			children = (
 				883CAE1D2F9EB0C500AD2032 /* Jahez Task.app */,
 				883CAE2A2F9EB0C800AD2032 /* Jahez TaskTests.xctest */,
-				883CAE342F9EB0C800AD2032 /* Jahez TaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,26 +135,6 @@
 			productReference = 883CAE2A2F9EB0C800AD2032 /* Jahez TaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		883CAE332F9EB0C800AD2032 /* Jahez TaskUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 883CAE442F9EB0C800AD2032 /* Build configuration list for PBXNativeTarget "Jahez TaskUITests" */;
-			buildPhases = (
-				883CAE302F9EB0C800AD2032 /* Sources */,
-				883CAE312F9EB0C800AD2032 /* Frameworks */,
-				883CAE322F9EB0C800AD2032 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				883CAE362F9EB0C800AD2032 /* PBXTargetDependency */,
-			);
-			name = "Jahez TaskUITests";
-			packageProductDependencies = (
-			);
-			productName = "Jahez TaskUITests";
-			productReference = 883CAE342F9EB0C800AD2032 /* Jahez TaskUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,10 +151,6 @@
 					883CAE292F9EB0C800AD2032 = {
 						CreatedOnToolsVersion = 26.0;
 						LastSwiftMigration = 2600;
-						TestTargetID = 883CAE1C2F9EB0C500AD2032;
-					};
-					883CAE332F9EB0C800AD2032 = {
-						CreatedOnToolsVersion = 26.0;
 						TestTargetID = 883CAE1C2F9EB0C500AD2032;
 					};
 				};
@@ -216,7 +176,6 @@
 			targets = (
 				883CAE1C2F9EB0C500AD2032 /* Jahez Task */,
 				883CAE292F9EB0C800AD2032 /* Jahez TaskTests */,
-				883CAE332F9EB0C800AD2032 /* Jahez TaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,13 +189,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		883CAE282F9EB0C800AD2032 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		883CAE322F9EB0C800AD2032 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,13 +212,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		883CAE302F9EB0C800AD2032 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -274,11 +219,6 @@
 			isa = PBXTargetDependency;
 			target = 883CAE1C2F9EB0C500AD2032 /* Jahez Task */;
 			targetProxy = 883CAE2B2F9EB0C800AD2032 /* PBXContainerItemProxy */;
-		};
-		883CAE362F9EB0C800AD2032 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 883CAE1C2F9EB0C500AD2032 /* Jahez Task */;
-			targetProxy = 883CAE352F9EB0C800AD2032 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -517,46 +457,6 @@
 			};
 			name = Release;
 		};
-		883CAE452F9EB0C800AD2032 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Jahez-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Jahez Task";
-			};
-			name = Debug;
-		};
-		883CAE462F9EB0C800AD2032 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Jahez-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Jahez Task";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -583,15 +483,6 @@
 			buildConfigurations = (
 				883CAE422F9EB0C800AD2032 /* Debug */,
 				883CAE432F9EB0C800AD2032 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		883CAE442F9EB0C800AD2032 /* Build configuration list for PBXNativeTarget "Jahez TaskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				883CAE452F9EB0C800AD2032 /* Debug */,
-				883CAE462F9EB0C800AD2032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
