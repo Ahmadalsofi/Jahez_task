@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		883CAEE72F9EB43C00AD2032 /* NetworkKit in Frameworks */ = {isa = PBXBuildFile; productRef = 883CAEE62F9EB43C00AD2032 /* NetworkKit */; };
 		883CAEEA2F9EB94300AD2032 /* SharedUI in Frameworks */ = {isa = PBXBuildFile; productRef = 883CAEE92F9EB94300AD2032 /* SharedUI */; };
+		883CAEED2F9EB9F100AD2032 /* AppService in Frameworks */ = {isa = PBXBuildFile; productRef = 883CAEEC2F9EB9F000AD2032 /* AppService */; };
+		883CAEEF2F9EB9F100AD2032 /* AppServiceMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 883CAEEE2F9EB9F100AD2032 /* AppServiceMocks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				883CAEE72F9EB43C00AD2032 /* NetworkKit in Frameworks */,
+				883CAEED2F9EB9F100AD2032 /* AppService in Frameworks */,
 				883CAEEA2F9EB94300AD2032 /* SharedUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883CAEEF2F9EB9F100AD2032 /* AppServiceMocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +119,7 @@
 			packageProductDependencies = (
 				883CAEE62F9EB43C00AD2032 /* NetworkKit */,
 				883CAEE92F9EB94300AD2032 /* SharedUI */,
+				883CAEEC2F9EB9F000AD2032 /* AppService */,
 			);
 			productName = "Jahez Task";
 			productReference = 883CAE1D2F9EB0C500AD2032 /* Jahez Task.app */;
@@ -138,6 +143,7 @@
 			);
 			name = "Jahez TaskTests";
 			packageProductDependencies = (
+				883CAEEE2F9EB9F100AD2032 /* AppServiceMocks */,
 			);
 			productName = "Jahez TaskTests";
 			productReference = 883CAE2A2F9EB0C800AD2032 /* Jahez TaskTests.xctest */;
@@ -198,6 +204,7 @@
 			packageReferences = (
 				883CAEE52F9EB43C00AD2032 /* XCLocalSwiftPackageReference "Packages/NetworkKit" */,
 				883CAEE82F9EB94300AD2032 /* XCLocalSwiftPackageReference "Packages/SharedUI" */,
+				883CAEEB2F9EB9F000AD2032 /* XCLocalSwiftPackageReference "Packages/AppService" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 883CAE1E2F9EB0C500AD2032 /* Products */;
@@ -590,6 +597,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/SharedUI;
 		};
+		883CAEEB2F9EB9F000AD2032 /* XCLocalSwiftPackageReference "Packages/AppService" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/AppService;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -600,6 +611,14 @@
 		883CAEE92F9EB94300AD2032 /* SharedUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SharedUI;
+		};
+		883CAEEC2F9EB9F000AD2032 /* AppService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppService;
+		};
+		883CAEEE2F9EB9F100AD2032 /* AppServiceMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppServiceMocks;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
